@@ -1,2 +1,2 @@
 # Alurinha-
-Apenas um opprojeto de curso da  alura para treinar Flex box 
+Apenas um projeto da Alura para treina  flex-box
