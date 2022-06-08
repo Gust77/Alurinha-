@@ -90,6 +90,7 @@ body {
 	left: 0;
 }
 
+
 .conteudoPrincipal-cursos-link:hover {
 	box-shadow: 4px 4px 4px #ccc;
 }
@@ -97,7 +98,7 @@ body {
 .conteudoPrincipal-cursos-link a:before {
 	content: '';
 	display: block;
-	width: 50px;
+	width: 50%;
 	height: 50px;
 	margin: 10px auto;
 }
@@ -106,6 +107,7 @@ body {
 	background: url(imagens/uchihas.png) no-repeat;	
     background-position: 50%;
     background-size: 25px;
+    width: 23%;
 }
 
 .conteudoPrincipal-cursos-link:nth-child(2) {
@@ -123,13 +125,14 @@ body {
 .conteudoPrincipal-cursos-link:nth-child(4) {
 	background: url(imagens/senju.svg) no-repeat;	
     background-position: 50%;
-    background-size: 50px;
+    background-size: 35px;
 }
 
 .conteudoPrincipal-cursos-link:nth-child(5) {
 	background: url(imagens/otsu.png) no-repeat;	
     background-position: 50%;
-    background-size: 35px;
+    background-size: 30px;
+    width: 23%;
 }
 
 .conteudoPrincipal-cursos-link:nth-child(6) {
@@ -154,6 +157,7 @@ body {
 	background: url(imagens/hatake.png) no-repeat;	
     background-position: 50%;
     background-size: 35px;
+    width: 23%;
 }
 
 .conteudoPrincipal-cursos-link:nth-child(10) {
@@ -178,6 +182,7 @@ body {
 	background: url(imagens/akimichi.png) no-repeat;	
     background-position: 50%;
     background-size: 35px;
+    width: 23%;
 }
 
 .conteudoPrincipal-cursos-link:nth-child(14) {
@@ -202,6 +207,7 @@ body {
 	background: url(imagens/shiin.png) no-repeat;	
     background-position: 50%;
     background-size: 35px;
+    width: 23%;
 }
 
 .conteudoPrincipal-cursos-link:nth-child(18) {
