@@ -1,3 +1,5 @@
+/*Cabeçalho*/
+
 .cabecalhoPrincipal .container{
     display: flex;
     justify-content: space-between;
@@ -8,4 +10,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/*Footer*/
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.rodapePrincipal-contatoForm{
+    width: 25%;
 }
