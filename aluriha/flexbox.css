@@ -11,6 +11,24 @@
     align-items: center;
     justify-content: center;
 }
+/*principal*/
+.conteudoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.conteudoPrincipal-cursos-link{
+    width: 23%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n){
+    margin-right: 0;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1){
+    margin-left: 0;
+}
 
 /*info*/
 
