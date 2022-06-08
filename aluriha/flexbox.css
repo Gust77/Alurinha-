@@ -12,6 +12,16 @@
     justify-content: center;
 }
 
+/*info*/
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+}
+
+
 /*Footer*/
 .rodapePrincipal-patrocinadores .container{
     display: flex;
