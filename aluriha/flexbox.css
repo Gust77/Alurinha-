@@ -21,11 +21,15 @@
 
 .rodapePrincipal-patrocinadores-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 70%;
 }
 
 .rodapePrincipal-contatoForm{
-    width: 25%;
+    width: 30%;
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex;
 }
