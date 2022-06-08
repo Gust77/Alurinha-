@@ -70,11 +70,11 @@ body {
 
 .conteudoPrincipal-cursos-link {
 	height: 100px;
-	background-color: #CCC;
+	background-color: whitesmoke;
 	text-align: center;
 	margin: 1%;
 	transition: .3s;
-	box-shadow: 2px 2px 2px #CCC;
+	box-shadow: 2px 2px 2px black;
 	position: relative;
 }
 
@@ -210,6 +210,19 @@ body {
     background-size: 35px;
 }
 
+.conteudoPrincipal-cursos-link:nth-child(19) {
+	background: url(imagens/sunaku.png) no-repeat;	
+    background-position: 50%;
+    background-size: 35px;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(20) {
+	background: url(imagens/haruno.png) no-repeat;	
+    background-position: 50%;
+    background-size: 35px;
+}
+
+
 
 
 .rodapePrincipal {
@@ -326,6 +339,18 @@ body {
 	outline: none;
     text-transform: uppercase;
     letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.videoSobre-button:hover {
+	background-color: white;
+	color: orange;
+}
+
+.videoSobre-button:active {
+	background-color: white;
+	color: orange;
+    border: 5px double orange;
 }
 
 .rodapePrincipal-contatoForm-legend {
