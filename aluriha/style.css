@@ -39,6 +39,9 @@ body {
     transition: transform 1s;
 }
 
+.cabecalhoPrincipal-nav-link:hover {
+	transform: scale(1.05);
+}
 
 .cabecalhoPrincipal-nav-link-app {
 	padding: 10px;
