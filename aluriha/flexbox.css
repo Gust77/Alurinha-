@@ -11,6 +11,8 @@
     align-items: center;
     justify-content: center;
 }
+   
+
 /*principal*/
 .conteudoPrincipal-cursos{
     display: flex;
@@ -28,6 +30,27 @@
 
 .conteudoPrincipal-cursos-link:nth-child(4n+1){
     margin-left: 0;
+}
+
+/*principal video*/
+
+.videoSobre .container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.videoSobre-sobre{
+    display: flex;
+    flex-direction: column;
+}
+
+.videoSobre-sobre-list{
+    flex-grow: 1;
+}
+
+.videoSobre-video{
+    flex-grow: 1;
 }
 
 /*info*/
@@ -60,4 +83,128 @@
 
 .rodapePrincipal-contatoForm-fieldset{
     display: flex;
+}
+
+/*mobile*/
+@media(max-width: 850px){
+.subtitulo{
+    text-align: center;
+}
+.rodapePrincipal-navMap-list{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+    }
+}
+
+
+@media(max-width: 768px){
+
+.cabecalhoPrincipal {
+	background-color: rgb(250, 200, 107);
+	padding: 0;
+}
+
+.cabecalhoPrincipal-nav {
+    flex-direction:column;
+}
+
+.cabecalhoPrincipal .container{
+    flex-direction: column;
+    align-items: initial;
+    width: 90%;
+    text-align: center;
+} 
+
+.cabecalhoPrincipal-nav-link {
+    background: transparent;
+    text-decoration: none;
+    border-bottom: 1px solid whitesmoke;
+    width: 100%;
+    letter-spacing: 5px;
+}
+
+.cabecalhoPrincipal-nav-link:hover {
+    color: whitesmoke;
+}
+
+/*Conteudo clãs*/
+
+.conteudoPrincipal .conteudoPrincipal-cursos{
+    margin-bottom: 10px;
+}
+.conteudoPrincipal-cursos-link {
+	height: 90px;
+	background-color: whitesmoke;
+	text-align: center;
+	box-shadow: 2px 2px 2px 2px black;
+	position: relative;
+    width: 100%;
+    box-shadow: black;
+    display: flex;
+    align-items: center;
+}
+
+.conteudoPrincipal-cursos{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1){
+    width: 100%;
+    margin-left: 1%;
+}
+
+/*conteudo area video*/
+.videoSobre .container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.videoSobre-sobre{
+    display: flex;
+    flex-direction: column;
+}
+
+.videoSobre-sobre-list{
+    flex-grow: 1;
+}
+
+.videoSobre-video{
+    width: 100%;
+}
+
+
+/*rodape*/
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.rodapePrincipal-contatoForm{
+    width: auto;
+}
+
+.cabecalhoPrincipal-nav-link-app{
+    order: -1;
+}
 }
